@@ -116,14 +116,14 @@ Provides a custom gradient background for the app:
 ### SplashView.swift
 The AppSplashView provides a polished, animated splash experience that appears when the app launches and transitions away automatically after a short delay.
 
-• Presents a full-screen, vibrant background using BackgroundView (diagonal gradient with blur)
-• Displays a large hierarchical SF Symbol icon (newspaper.fill) and the app title “Top Headlines”
-• Animates the icon and title in with smooth scale and opacity transitions to create a refined entrance:
-   • Icon scales from 0.8 to 1.0 and fades in
-   • Title and progress indicator fade in with slight delays for a staggered effect
-• Shows a ProgressView to communicate loading activity during the splash
-• Automatically dismisses itself after approximately 2.5 seconds using a fade animation, handing control to the main content
-• Implemented in SwiftUI with lightweight state management and clean, modern animations.
+- Presents a full-screen, vibrant background using BackgroundView (diagonal gradient with blur).
+- Displays a large hierarchical SF Symbol icon (newspaper.fill) and the app title “Top Headlines”.
+- Animates the icon and title in with smooth scale and opacity transitions to create a refined entrance:
+   - Icon scales from 0.8 to 1.0 and fades in.
+   - Title and progress indicator fade in with slight delays for a staggered effect.
+- Shows a ProgressView to communicate loading activity during the splash.
+- Automatically dismisses itself after approximately 2.5 seconds using a fade animation, handing control to the main content.
+- Implemented in SwiftUI with lightweight state management and clean, modern animations.
 
 This splash screen sets the tone for the app by combining an immersive background, clear branding, and subtle motion to create a welcoming first impression.
 
